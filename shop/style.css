@@ -1,0 +1,91 @@
+/* ===== Style cho cửa hàng hoa tươi ===== */
+
+/* Toàn trang */
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #ec0aa8;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Phần giới thiệu */
+.intro {
+  text-align: center;
+  padding: 30px;
+}
+
+/* Danh sách sản phẩm */
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Sản phẩm */
+.product {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.product h3 {
+  color: #e91e63;
+}
+
+button {
+  background-color: #f06292;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e91e63;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #f8bbd0;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 14px;
+}
